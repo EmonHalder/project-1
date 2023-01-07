@@ -1,3 +1,9 @@
+*{
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+/* header */
+
 .hero {
   background-image: url("image/banner2.png");
   width: 100%;
@@ -7,11 +13,15 @@
   text-align: end;
   padding-top: 180px;
   margin-right: 200px;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  
 }
 .text {
   margin-left: 700px;
   font-weight: 100;
+  color: rgb(103, 103, 103);
+}
+.text-1{
+  color: rgb(128, 128, 128);
 }
 #hed-text {
   font-size: 50px;
@@ -43,9 +53,10 @@
     margin-left: 5px;
     padding: 7px;
     margin: 0;
+    color: rgb(118, 118, 118);
 }
 .icon i{
-    color: green;
+    color: rgb(14, 255, 14);
 }
 .text-1{
     width:400px;
@@ -75,10 +86,13 @@
 .section-3 p{
   font-size: 20px;
 }
+.peragrap{
+  color: rgb(113, 113, 113);
+}
 
 .section-4{
   background-image:
-    linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%),
+    linear-gradient(90deg, rgb(241, 49, 49) 0%, rgba(241, 91, 34, 0) 100%),
     url('image/watch.png');
     width: auto;
     padding-bottom: 80px;
@@ -86,7 +100,8 @@
     background-repeat: no-repeat;
     margin-left: 50px;
     margin-right: 50px;
-   
+   border-radius: 10px;
+   height: 200px;
     
 }
 .section-4 h3{
@@ -99,12 +114,13 @@
 .section-4 button{
   width: 160px;
   height: 50px;
-  font-size: 20px;
+  font-size: 15px;
   border: none;
   border-radius: 5px;
   margin-left: 50px;
   top: 100px;
   padding: 0;
+  color: rgb(241, 49, 49);
   
   
 }
