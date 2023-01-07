@@ -2,7 +2,7 @@
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
-/* header */
+/* ------header---- */
 
 .hero {
   background-image: url("image/banner2.png");
@@ -37,6 +37,8 @@
   border-radius: 10px;
 }
 
+/* -----section----- 2*/
+
 .secend-section{
     display: flex;
     margin-top: 100px;
@@ -67,6 +69,8 @@
     margin-bottom: 0;
 }
 
+/* -----section----- 3*/
+
 .section-3{
     display: flex;
     justify-content: space-around;
@@ -90,6 +94,7 @@
   color: rgb(113, 113, 113);
 }
 
+/* -----section----- 4 */
 .section-4{
   background-image:
     linear-gradient(90deg, rgb(241, 49, 49) 0%, rgba(241, 91, 34, 0) 100%),
@@ -121,6 +126,57 @@
   top: 100px;
   padding: 0;
   color: rgb(241, 49, 49);
-  
-  
+}
+
+
+/* -------section 5------ */
+
+.sub-footer{
+  width: 485px;
+  height: 317px;
+   
+}
+
+.sub-footer h1{
+  font-size: 40px;
+}
+
+.submit-from{
+  width: 325px;
+  height: 204px;
+}
+.submit-from h3{
+  font-size: 25px;
+}
+
+.bottom{
+  width: 160px;
+  height: 50px;
+  color: white;
+  background-color: rgb(241, 49, 49);
+  border-radius: 9px;
+}
+
+.fromer{
+  width: 325px;
+  height: 55px;
+  border: 1px solid white;
+  background-color: black;
+  color: white;
+   
+}
+
+.main-footer{
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  height: 450px;
+  background-color: black;
+  color: white;
+  margin-top: 130px;
+  padding-top: 100px;
+}
+
+.social-icon{
+  margin-top: 50px;
 }
